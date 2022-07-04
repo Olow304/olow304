@@ -2,8 +2,6 @@
 
 ```python
 from life import Creativity
-import win32api
-win32api.MessageBox(0, 'hello', 'title')
 
 
 class Life(Creativity):
@@ -16,18 +14,19 @@ class Life(Creativity):
         
     {... 143 lines hidden }
 
-    def current_projects(self):
+    def current_projects(self) -> None:
         self.currently_learning = "Data Structure and Algorithms 📚"
         self.currently_working_on = "Creating online platform for Somali developers"
         self.excited_for = "Natural Language Processor - Deep learning"
     
-    def contact_me(self):
+    def contact_me(self) -> str:
         self.email = "olow304@gmail.com"
         
-    def followMe() -> bool:
-        if self.user not in this.visitedUser.getTheirFollowing():
-            
-        
+    def followMe() -> None:
+        if self.user not in this.visitedUser.getWhoTheyFollowing():
+            print("Looks like you are not following {name} 😐".format(this.user.getUserName()))
+        else:
+            print("You are awesome 😎 ")
  
 if '__repo__' == '__helpful__':
     followMe()
