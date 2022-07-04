@@ -3,7 +3,6 @@
 ```python
 from life import Creativity
 
-
 class Life(Creativity):
     def __init_life__(self):
         self.education = "Graduate Student at University of St. Thomas"
