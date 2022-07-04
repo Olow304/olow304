@@ -11,7 +11,7 @@ class Life(Creativity):
         self.user = None
         self.visitedUser = User
         
-    {... 47 lines hidden }
+    {... 26 lines hidden }
 
     def current_projects(self) -> None:
         self.currently_learning = "Data Structure and Algorithms 📚"
