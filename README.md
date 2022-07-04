@@ -21,14 +21,14 @@ class Life(Creativity):
     def contact_me(self) -> str:
         self.email = "olow304@gmail.com"
         
-    def followMe() -> None:
+    def follow_me() -> None:
         if self.user not in this.visitedUser.getWhoTheyFollowing():
             print("Looks like you are not following {name} 😐".format(this.user.getUserName()))
         else:
             print("You are awesome 😎 ")
  
 if '__repo__' == '__helpful__':
-    followMe()
+    follow_me()
     star.it()
     fork.it()
 
