@@ -1,16 +1,25 @@
 ### Hi there 👋
 
-<!--
-**Olow304/olow304** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+```python
+from life import Creativity
 
-Here are some ideas to get you started:
+class Life(Creativity):
+    def __init_life__(self):
+        self.education = "Graduate Student at University of St. Thomas"
+        self.current_job_title = "Full Stack Developer"
+        self.current_company = "WhenIWork"
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+    def current_projects(self):
+        self.currently_learning = "Data Structure and Algorithms 📚"
+        self.currently_working_on = "Creating online platform for Somali developers"
+        self.excited_for = "Natural Language Processor - Deep learning"
+    
+    def contact_me(self):
+        self.email = "olow304@gmail.com"
+ 
+if '__repo__' == '__helpful__':
+    followMe()
+    star.it()
+    fork.it()
+
+```
