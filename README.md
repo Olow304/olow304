@@ -13,7 +13,7 @@ class Life(Creativity):
         self.education = "Graduate Student at University of St. Thomas"
         self.current_job_title = "Full Stack Developer"
         self.current_company = "WhenIWork"
-        self.user = None
+        self.user = self.getUser() || None
         self.visitedUser = User
         
     {... 26 lines hidden }
@@ -33,7 +33,7 @@ class Life(Creativity):
             print("You are awesome 😎 ")
  
 if '__repo__' == '__helpful__':
-    follow_me()
+    follow.me()
     star.it()
     fork.it()
 
