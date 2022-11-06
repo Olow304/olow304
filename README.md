@@ -2,9 +2,6 @@
 
 ### Visitor Count
 
-![Visitor Count](https://profile-counter.glitch.me/olow304/count.svg)
-
-
 ```python
 from life import Creativity
 
