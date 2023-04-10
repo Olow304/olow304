@@ -1,7 +1,5 @@
 ## Hi there 👋
 
-### Visitor Count
-
 ```python
 from life import Creativity
 
@@ -13,7 +11,7 @@ class Life(Creativity):
         self.user = self.getUser() || None
         self.visitedUser = User
         
-    {... 26 lines hidden }
+    #... 26 lines hidden 
 
     def current_projects(self) -> None:
         self.currently_learning = "Data Structure and Algorithms 📚"
